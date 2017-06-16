@@ -1,0 +1,62 @@
+.navbar:after {
+  display: block;
+  content: "";
+  height: 10.1875rem;
+  position: absolute;
+  left: 0px;
+  top: calc(100% - 1px);
+  width: 100%;
+
+  background-image: url("../assets/logo/paper-menu.png");
+  background-position: center 0;
+  background-repeat: repeat-x;
+  background-size: auto 5.1875rem;
+
+  z-index: 10;
+}
+
+.navbar {
+  background: #ffffff;
+  margin-bottom: 0px;
+
+}
+
+
+.navbar {
+
+  padding: 30px;
+
+  #navbar {
+    li {
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+  }
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+
+
+@media only screen and (min-width: 300px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+  .navbar {
+    padding: 30px 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 2450px) {
+
+}
